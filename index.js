@@ -1,8 +1,8 @@
 var rand=Math.floor(Math.random()*6)+1;
-document.querySelector(".dice .img1").setAttribute("src","images/dice"+ rand+".png");
+document.querySelector(".dice .img1").setAttribute("src","/images/dice"+ rand+".png");
 
 var rand2=Math.floor(Math.random()*6)+1;
-document.querySelector(".dice .img2").setAttribute("src","images/dice"+ rand2+".png");
+document.querySelector(".dice .img2").setAttribute("src","/images/dice"+ rand2+".png");
 
 if(rand>rand2)
 {
